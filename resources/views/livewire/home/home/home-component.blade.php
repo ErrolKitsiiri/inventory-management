@@ -731,7 +731,7 @@
                                 <h4>App 1</h4>
                                 <p>App</p>
                                 <div class="portfolio-links">
-                                    <a href="front/img/portfolio/portfolio-1.jpg')}}" data-gallery="portfolioGallery"
+                                    <a href="{{ asset('front/img/portfolio/portfolio-1.jpg') }}" data-gallery="portfolioGallery"
                                         class="portfokio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i
                                             class="bi bi-link"></i></a>
@@ -748,7 +748,7 @@
                                 <h4>Web 3</h4>
                                 <p>Web</p>
                                 <div class="portfolio-links">
-                                    <a href="front/img/portfolio/portfolio-2.jpg')}}" data-gallery="portfolioGallery"
+                                    <a href="{{ asset('front/img/portfolio/portfolio-2.jpg') }}" data-gallery="portfolioGallery"
                                         class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i
                                             class="bi bi-link"></i></a>
@@ -765,7 +765,7 @@
                                 <h4>App 2</h4>
                                 <p>App</p>
                                 <div class="portfolio-links">
-                                    <a href="front/img/portfolio/portfolio-3.jpg')}}" data-gallery="portfolioGallery"
+                                    <a href="{{ asset('front/img/portfolio/portfolio-3.jpg') }}" data-gallery="portfolioGallery"
                                         class="portfokio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i
                                             class="bi bi-link"></i></a>
@@ -782,7 +782,7 @@
                                 <h4>Card 2</h4>
                                 <p>Card</p>
                                 <div class="portfolio-links">
-                                    <a href="front/img/portfolio/portfolio-4.jpg')}}" data-gallery="portfolioGallery"
+                                    <a href="}{{ asset('front/img/portfolio/portfolio-4.jpg') }}" data-gallery="portfolioGallery"
                                         class="portfokio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i
                                             class="bi bi-link"></i></a>
@@ -799,7 +799,7 @@
                                 <h4>Web 2</h4>
                                 <p>Web</p>
                                 <div class="portfolio-links">
-                                    <a href="front/img/portfolio/portfolio-5.jpg')}}" data-gallery="portfolioGallery"
+                                    <a href="{{ asset('front/img/portfolio/portfolio-5.jpg') }}" data-gallery="portfolioGallery"
                                         class="portfokio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i
                                             class="bi bi-link"></i></a>
@@ -816,7 +816,7 @@
                                 <h4>App 3</h4>
                                 <p>App</p>
                                 <div class="portfolio-links">
-                                    <a href="front/img/portfolio/portfolio-6.jpg')}}" data-gallery="portfolioGallery"
+                                    <a href="{{ asset('front/img/portfolio/portfolio-6.jpg') }}" data-gallery="portfolioGallery"
                                         class="portfokio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i
                                             class="bi bi-link"></i></a>
@@ -850,7 +850,7 @@
                                 <h4>Card 3</h4>
                                 <p>Card</p>
                                 <div class="portfolio-links">
-                                    <a href="front/img/portfolio/portfolio-8.jpg')}}" data-gallery="portfolioGallery"
+                                    <a href="{{ asset('front/img/portfolio/portfolio-8.jpg') }}" data-gallery="portfolioGallery"
                                         class="portfokio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i
                                             class="bi bi-link"></i></a>
@@ -867,7 +867,7 @@
                                 <h4>Web 3</h4>
                                 <p>Web</p>
                                 <div class="portfolio-links">
-                                    <a href="front/img/portfolio/portfolio-9.jpg')}}" data-gallery="portfolioGallery"
+                                    <a href="{{ asset('front/img/portfolio/portfolio-9.jpg') }}" data-gallery="portfolioGallery"
                                         class="portfokio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                                     <a href="portfolio-details.html" title="More Details"><i
                                             class="bi bi-link"></i></a>
@@ -1205,16 +1205,12 @@
         <section id="contact" class="contact">
 
             <div class="container" data-aos="fade-up">
-
                 <header class="section-header">
                     <h2>Contact</h2>
                     <p>Contact Us</p>
                 </header>
-
                 <div class="row gy-4">
-
                     <div class="col-lg-6">
-
                         <div class="row gy-4">
                             <div class="col-md-6">
                                 <div class="info-box">
